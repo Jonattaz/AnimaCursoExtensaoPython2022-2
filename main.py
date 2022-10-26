@@ -1,26 +1,16 @@
-# Primeiro projeto python!!!
-'''Comentario em bloco'''
+# O main é usado apenas para praticar durante a aula, depois o conteúdo que está aqui é colocado no arquivo que contém a sua data
 
-print("Alo mundo!\n")
 
-# Não precisa declarar o tipo de variável
-# String
-nome = "Jonatas"
-sobrenome = "Santos"
-# Integer
-idade = 21
+# Comando de entrada para permitir que o usuário digite algo. input()
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite a sua idade: "))
 
-# Float
-dinheiro = 200000.45
 
-print("R${}\n".format(dinheiro))
+# Comando de saída
+print("Bem vindo " + nome)
+print("Sua idade é: " + str(idade))
 
-# 1.Conversão - str()
-print(nome + " " + sobrenome + " " + str(idade) + " anos de idade\n")
+dobro = idade * 2
 
-# 2.Conversão - f"{}"
-print(nome + f" possui {idade}" + " anos de idade\n");
-
-# 3.Conversão - .format(idade)
-print("Senhor " +sobrenome +" possui "+ "{} anos de idade".format(idade))
+print("O dobro da sua idade é: " + str(dobro))
 
