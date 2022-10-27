@@ -42,3 +42,26 @@ elif nota == 10:
   print(aluno + " tirou a nota máxima, parabenize ele pelo bom trabalho")
 else:
   print("A nota digitada possui algum erro")
+
+### ----------- Laço -------------- ###
+# Exibir números de 1 a 10
+numero = 0;
+
+while numero < 10:
+  numero += 1
+  print(numero)
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
