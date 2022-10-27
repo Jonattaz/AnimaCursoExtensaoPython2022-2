@@ -14,3 +14,18 @@ dobro = idade * 2
 
 print("O dobro da sua idade é: " + str(dobro))
 
+# Estrutura condicioonal
+#If
+if idade >= 18:
+  print("Você é maior de idade, lembre-se que com grandes poderes vem grandes responsabilidades")
+else:
+  print("Você ainda é menor de idade, se divirta e aprenda o máximo que puder")
+
+# Perguntando o gênero(M = masculino e F = feminino) e caso seja masculino mostrar se fez serviço militar obrigatório
+genero = input("Digite um gênero, sendo M para masculino, F para feminino e O para outros: ")
+
+if idade >= 18 and genero == "M":
+  print("Você precisa ou precisou prestar serviço militar obrigatório")
+
+  
+  
