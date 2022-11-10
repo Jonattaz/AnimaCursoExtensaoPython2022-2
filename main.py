@@ -43,6 +43,7 @@ for frutas in cesta:
 
 ### ----------- Funções -------------- ###
 # Função para calcular um imposto de 5%
+print("\nCalculo de imposto de renda")  
 def Calcular_Imposto(preco_produto):
   imposto = preco_produto * 0.05
   return imposto
@@ -54,10 +55,14 @@ for valor in valores:
   print("O imposto de "+ str(valor) + " é "+ str(Calcular_Imposto(valor)))
 
 
+#Função que recebe dois parâmetros
+def Calcular_Imposto_Aliquota(valor, aliquota=7):
+  imposto = valor * aliquota / 100
+  return imposto
 
-
-
-
+print("\nImposto com aliquotas diferentes")
+for valor in valores:
+   print("O imposto de "+ str(valor) + " é "+ str(Calcular_Imposto_Aliquota(valor, 8)))
 
 
 
