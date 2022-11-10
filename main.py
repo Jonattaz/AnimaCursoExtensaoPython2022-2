@@ -48,4 +48,20 @@ def Calcular_Imposto(preco_produto):
   return imposto
 
 
-print("O imposto pago foi de " + str((Calcular_Imposto(299))))
+#print("O imposto pago foi de " + str((Calcular_Imposto(299))))
+valores = [1.99, 24.50, 78.27, 1515.5]
+for valor in valores:
+  print("O imposto de "+ str(valor) + " é "+ str(Calcular_Imposto(valor)))
+
+
+
+
+
+
+
+
+
+
+
+
+
