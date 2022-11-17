@@ -20,3 +20,13 @@ for pessoa in pessoas:
 
 for pessoa in pessoas:
   print(f"Nome: {pessoa[1]} - {pessoa[3]}")
+
+#Comando para inserir herói ou vilão
+sql = "INSERT INTO pessoas (pessoa_id, nome, nome_civil, tipo) VALUES (12, 'The Flash', 'Wally West', 'Herói(na)')"
+
+#Executar o comando SQL
+print(cursor.execute(sql))
+
+#Confirmar o INSERT com commit() e fechar o banco
+conexao.commit()
+conexao.close()
